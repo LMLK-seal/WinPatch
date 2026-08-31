@@ -58,7 +58,12 @@ Download the complete exe file from the Releases.
 
 Download the .c file and build it as follows:
 
-**Open Watcom** (recommended — free, runs on modern Windows or Linux, cross-compiles straight to DOS):
+**Download and install Watcom** (recommended — free, runs on modern Windows or Linux, cross-compiles straight to DOS):
+
+**Build the environment with CMD:**
+```
+call C:\WATCOM\owsetenv.bat
+```
 
 ```
 wcl -bt=dos -ml winpatch.c
