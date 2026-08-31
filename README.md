@@ -4,6 +4,9 @@ A small DOS command-line tool that automatically fixes the classic Windows 98 **
 
 It edits `SYSTEM.INI` for you — no manual text editing, no guessing at hex values.
 
+![WinPatch Screenshot](https://github.com/LMLK-seal/WinPatch/blob/main/Logo.png?raw=true)
+
+
 ## The problem
 
 Windows 98's memory manager (`VMM32.VXD`) has a well-documented bug: on machines with roughly 512MB of RAM or more, it can miscount physical memory during the boot handoff from real mode to protected mode. The result is a hard crash — a "Windows Protection Error" — right as `WIN.COM` hands control to `VMM32.VXD`, before the desktop ever loads.
