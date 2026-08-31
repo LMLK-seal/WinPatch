@@ -113,3 +113,6 @@ COPY /Y C:\WINDOWS\SYSTEM.BAK C:\WINDOWS\SYSTEM.INI
 - Targets `C:\WINDOWS\SYSTEM.INI` specifically; it doesn't search for a Windows install on another drive letter.
 - Assumes the file fits comfortably in DOS conventional memory (real-world `SYSTEM.INI` files — a few hundred lines — are well within the 4000-line limit this tool supports).
 - Doesn't attempt to detect installed RAM automatically (no `INT 15h` BIOS calls) — you provide the target value. This is intentional: auto-detection code is a much easier place to introduce a bug that's hard to verify across the range of period BIOSes this tool is likely to run against.
+
+## License
+-  This project is released under the MIT License.
