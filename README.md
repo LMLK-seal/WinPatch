@@ -1,8 +1,6 @@
 # WinPatch
 
-> **A small DOS command-line tool that automatically fixes the classic Windows 98 **"Windows Protection Error"** boot crash caused by having more RAM installed than the stock 9x kernel handles cleanly.
-
-It edits `SYSTEM.INI` for you — no manual text editing, no guessing at hex values.**
+> **A small DOS command-line tool that automatically fixes the classic Windows 98 **"Windows Protection Error"** boot crash caused by having more RAM installed than the stock 9x kernel handles cleanly It edits `SYSTEM.INI` for you — no manual text editing, no guessing at hex values.**
 
 ![WinPatch Screenshot](https://github.com/LMLK-seal/WinPatch/blob/main/Logo.png?raw=true)
 
